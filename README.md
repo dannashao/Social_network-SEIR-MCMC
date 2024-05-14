@@ -47,14 +47,14 @@ All of the removal times are estimated since there is no certain data that can s
 ### Social network visualization
 | ![social network](network.png) | 
 |:--:| 
-| *The visualization of the social network under estimated network weight $\eta$.* |
+| *The visualization of the social network under estimated network weight eta.* |
 
 According to the social media data, there are about half of the users who reposted the message do not have a direct follow relationship with their parent node. Those users are considered isolated from other users in this social network. Meanwhile, a few users have many followers, resulting in many connections. The rest of the reposts are in a chained manner, that is, the message is passed from one to another. The shown network satisfies these features.
 
 ### Transmission parameters' posterior
 | ![posterior of the parameters](posterior.png) | 
 |:--:| 
-| *Estimated posterior densities for epidemic parameters $\beta$, $k_I$, $\theta_I$, $k_E$, $\theta_E$ and $\eta_2$ where $\eta_2$ represents the absolute difference of follower number.* |
+| *Estimated posterior densities for epidemic parameters beta, k_I, theta_I, k_E, theta_E and eta_2 where eta_2$ represents the absolute difference of follower number.* |
 
 ### Simulated transmission tree
 The transmission tree provides an intuitive perception of the spreading process. The transmission tree is updated in each iteration of the MCMC algorithm just as other parameters. The following figure is one such example. From the figure we can see that the reposting is highly clustered, that is, there are few parent nodes and those nodes have many successors.
