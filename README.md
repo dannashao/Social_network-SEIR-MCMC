@@ -54,7 +54,7 @@ According to the social media data, there are about half of the users who repost
 ### Transmission parameters' posterior
 | ![posterior of the parameters](posterior.png) | 
 |:--:| 
-| *Estimated posterior densities for epidemic parameters beta, k_I, theta_I, k_E, theta_E and eta_2 where eta_2$ represents the absolute difference of follower number.* |
+| *Estimated posterior densities for epidemic parameters beta, k_I, theta_I, k_E, theta_E and eta_2 where eta_2 represents the absolute difference of follower number.* |
 
 ### Simulated transmission tree
 The transmission tree provides an intuitive perception of the spreading process. The transmission tree is updated in each iteration of the MCMC algorithm just as other parameters. The following figure is one such example. From the figure we can see that the reposting is highly clustered, that is, there are few parent nodes and those nodes have many successors.
