@@ -48,6 +48,7 @@ All of the removal times are estimated since there is no certain data that can s
 | ![social network](network.png) | 
 |:--:| 
 | *The visualization of the social network under estimated network weight $\eta$.* |
+
 According to the social media data, there are about half of the users who reposted the message do not have a direct follow relationship with their parent node. Those users are considered isolated from other users in this social network. Meanwhile, a few users have many followers, resulting in many connections. The rest of the reposts are in a chained manner, that is, the message is passed from one to another. The shown network satisfies these features.
 
 ### Transmission parameters' posterior
